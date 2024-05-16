@@ -22,8 +22,19 @@ function App() {
               <h3>insta</h3>
               </div>
 
+              <div className="button">
+                <button>Download CV</button>
+              </div>
+
             </div>
 
+        </div>
+        <div className="right">ffas
+    <nav>
+          <li>ABOUT ME</li>
+          <li>skills</li>
+          <li>experience</li>
+        </nav>
         </div>
       </div>
     </>
