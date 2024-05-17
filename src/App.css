@@ -1,10 +1,18 @@
+*{
+  /* overflow: hidden; */
+}
+main{
+  height: 100%;
+  width: 100%;
+}
 .body{
   height: 100vh;
   width: 100vw;
-  background-color: aquamarine;
+  background-color: blackw;
   border: 2px solid green;
   padding-top: 40px;
   display: flex;
+  
 }
 
 
@@ -12,7 +20,7 @@
   
   height: 75vh;
   width: 23vw;
-  background-color: blue;
+  background-color: rgb(0, 255, 238);
   margin: 40px;
   border: 2px solid black;
   border-radius: 17px;
@@ -62,6 +70,7 @@
     height: 85vh;
     width: 65vw;
     display: flex;
+    flex-direction: column;
 
     
   }
@@ -78,3 +87,56 @@
     align-items: center;
     justify-content: space-between;
   }
+  
+  .box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+  }
+
+  .box1{
+    height: 130%;
+    width: 30%;
+    border: 2px solid red;
+    border-radius: 30px;
+    position: relative;
+    top: 40px;
+    left: 90px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .box2{
+    
+      height: 130%;
+      width: 30%;
+      border: 2px solid red;
+      border-radius: 30px;
+      position: relative;
+      top: 40px;
+      left: 200px;
+      /* display: flex; */
+      overflow: auto;
+      /* align-items: center; */
+      justify-content: center;
+      display: flex;
+  }
+
+ #exp{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+ }
+
+ .block1{
+      height: 40vh;
+      width: 30%;
+      border: 2px solid red;
+      border-radius: 30px;
+      position: relative;
+      margin: 100px;
+
+ }
+
